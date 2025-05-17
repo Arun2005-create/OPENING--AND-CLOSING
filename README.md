@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 
 img1=np.zeros((300,600),dtype='uint8')
 font=cv2.FONT_ITALIC
-img2=cv2.putText(img1,"sai",(5,100),font,3,(255,0,0),5,cv2.LINE_AA)
+img2=cv2.putText(img1,"Arun",(5,100),font,3,(255,0,0),5,cv2.LINE_AA)
 cv2.imshow("Original",img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
